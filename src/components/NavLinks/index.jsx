@@ -18,6 +18,6 @@ NavLinks.propTypes = {
       children: P.node.isRequired,
       link: P.string.isRequired,
       newTab: P.bool,
-    }).isRequired,
+    }),
   ),
 };
